@@ -1,0 +1,135 @@
+C_\Users\dm2\AccessionATF\ATAT_GitLab\Accession_Testing\testing:
+  Degree of Preference For Scenario One: 2.6
+  Degree of Preference For Scenario Two: 0
+  Questions:
+    0:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    1:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: B
+        Scenario: scenario two
+    2:
+      Correct: false
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    3:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    4:
+      Correct: false
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    5:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: B
+        Scenario: scenario two
+    6:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    7:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    8:
+      Correct: false
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: B
+        Scenario: scenario two
+    9:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    10:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    11:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+    12:
+      Correct: false
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: B
+        Scenario: scenario two
+    13:
+      Correct: false
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: B
+        Scenario: scenario two
+    14:
+      Correct: false
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: B
+        Scenario: scenario two
+    15:
+      Correct: true
+      Correct Answer:
+        Answer: A
+        Scenario: scenario one
+      User Answer:
+        Answer: A
+        Scenario: scenario one
+  Total Correct: 10 out of 16
+  Total Preference For Scenario One: 10
+  Total Preference For Scenario Two: 0

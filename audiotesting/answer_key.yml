@@ -1,0 +1,72 @@
+Scenario One:
+  gemodel_1_2_3_4_loss_None_delay_None_jitter_150:
+    Cross Correlation Coefficient: 0.0
+    Time Latency: 11.8870625
+Scenario Two:
+  gemodel_2_3_4_5_loss_None_delay_None_jitter_1000:
+    Cross Correlation Coefficient: 0.0
+    Time Latency: 11.887
+Q_0:
+  A_value: scenario one
+  B_value: scenario two
+  x_answer_alpha: B
+Q_1:
+  A_value: scenario one
+  B_value: scenario two
+  x_answer_alpha: B
+Q_2:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: A
+Q_3:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: B
+Q_4:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: B
+Q_5:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: B
+Q_6:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: A
+Q_7:
+  A_value: scenario one
+  B_value: scenario two
+  x_answer_alpha: B
+Q_8:
+  A_value: scenario one
+  B_value: scenario two
+  x_answer_alpha: B
+Q_9:
+  A_value: scenario one
+  B_value: scenario two
+  x_answer_alpha: B
+Q_10:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: A
+Q_11:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: B
+Q_12:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: A
+Q_13:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: A
+Q_14:
+  A_value: scenario one
+  B_value: scenario two
+  x_answer_alpha: B
+Q_15:
+  A_value: scenario two
+  B_value: scenario one
+  x_answer_alpha: B
