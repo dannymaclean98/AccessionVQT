@@ -1,0 +1,83 @@
+#NOTE: YAML syntax requires a space between a colon and the input value or else it will raise an error
+
+#Login info for Router
+---
+Login_info:
+ IP_address: "192.168.8.1"
+ Username: "root"
+ Password: "!BeeEmDubyuu4"
+
+Network_Interface: wlan-sta
+
+#MRR Need to state that probabilities are in %
+# List of Network Conditions 
+# Loss:
+#   random - Packets will dropped with the following probability. Accepts a single integer as the value
+#   gemodel - drop packets using Gilbert-Elliot scheme with probabilities 
+#   move-to-burstmode (p), move-to-gapmode (r) 
+#   drop-in-burstmode (1-h) and drop-in-gapmode(1-k). #MRR - seems badly formatted - what's the "nd"?
+#   gemodel accepts 1-4 integers(space seperated) as the value.
+# Delay:
+#   time: This is the uniform latency that all packets will experience in milliseconds. Enter a single integer
+#   This parameter must be filled if jitter and distribution are too be used
+#MRR As noted below, jitter and distribution are the wrong way round
+#   jitter: This is type of distribution for packet jitter. Acceptable input is normal, pareto and paretonormal
+#   distribution: This is the distribution of jitter. Acceptable input is a single integer
+
+# Example Entry:
+# Commands:
+# - loss:
+#    type: random
+#    value: 20
+#   delay:
+#    time: 200
+#    jitter: normal 
+#    distribution: 50
+    
+
+
+#Network_parameters:
+#MRR This list of commands is supposed to be a default set of 5 or 6 that you were supposed to decide were "typical" or "representative" of real-world network conditions in some way.
+#You should update accordingly.
+#MRR You need to state what the consistency rules are for the different fields as checked for by check_cfg()
+Commands:
+ - loss:
+    type: random
+    value: 0
+   delay:
+    time: 0 
+    distribution:
+    jitter:  
+    
+ - loss:
+    type: random
+    value: 0
+   delay:
+    time: 0 
+    distribution:
+    jitter: 
+
+ - loss:
+    type: random
+    value: 0
+   delay:
+    time: 0 
+    distribution:
+    jitter: 
+    
+ - loss:
+    type: random
+    value: 0
+   delay:
+    time: 0 
+    distribution:
+    jitter: 
+    
+ - loss:
+    type: random
+    value: 0
+   delay:
+    time: 0 
+    distribution:
+    jitter:    
+...
